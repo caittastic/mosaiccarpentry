@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mosaic_carpentry:acacia_mosaic_slab"
+    ]
+  },
+  "criteria": {
+    "has_acacia_mosaic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mosaic_carpentry:acacia_mosaic"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mosaic_carpentry:acacia_mosaic_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_acacia_mosaic",
+      "has_the_recipe"
+    ]
+  ]
+}

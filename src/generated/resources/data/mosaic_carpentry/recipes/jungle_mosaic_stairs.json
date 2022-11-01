@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mosaic_carpentry:jungle_mosaic"
+    }
+  },
+  "result": {
+    "item": "mosaic_carpentry:jungle_mosaic_stairs",
+    "count": 4
+  }
+}

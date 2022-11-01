@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mosaic_carpentry:crimson_mosaic"
+    }
+  },
+  "result": {
+    "item": "mosaic_carpentry:crimson_mosaic_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mosaic_carpentry:jungle_mosaic"
+    ]
+  },
+  "criteria": {
+    "has_jungle_mosaic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mosaic_carpentry:jungle_mosaic"
+            ]
+          }
+        ]
+      }
+    },
+    "has_jungle_plank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_jungle_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mosaic_carpentry:jungle_mosaic"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_jungle_mosaic",
+      "has_jungle_plank",
+      "has_jungle_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

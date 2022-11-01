@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "mosaic_carpentry:oak_mosaic",
+    "mosaic_carpentry:oak_mosaic_slab",
+    "mosaic_carpentry:oak_mosaic_stairs",
+    "mosaic_carpentry:birch_mosaic",
+    "mosaic_carpentry:birch_mosaic_slab",
+    "mosaic_carpentry:birch_mosaic_stairs",
+    "mosaic_carpentry:spruce_mosaic",
+    "mosaic_carpentry:spruce_mosaic_slab",
+    "mosaic_carpentry:spruce_mosaic_stairs",
+    "mosaic_carpentry:dark_oak_mosaic",
+    "mosaic_carpentry:dark_oak_mosaic_slab",
+    "mosaic_carpentry:dark_oak_mosaic_stairs",
+    "mosaic_carpentry:acacia_mosaic",
+    "mosaic_carpentry:acacia_mosaic_slab",
+    "mosaic_carpentry:acacia_mosaic_stairs",
+    "mosaic_carpentry:jungle_mosaic",
+    "mosaic_carpentry:jungle_mosaic_slab",
+    "mosaic_carpentry:jungle_mosaic_stairs",
+    "mosaic_carpentry:warped_mosaic",
+    "mosaic_carpentry:warped_mosaic_slab",
+    "mosaic_carpentry:warped_mosaic_stairs",
+    "mosaic_carpentry:crimson_mosaic",
+    "mosaic_carpentry:crimson_mosaic_slab",
+    "mosaic_carpentry:crimson_mosaic_stairs"
+  ]
+}

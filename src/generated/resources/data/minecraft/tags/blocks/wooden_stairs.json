@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "mosaic_carpentry:oak_mosaic_stairs",
+    "mosaic_carpentry:birch_mosaic_stairs",
+    "mosaic_carpentry:spruce_mosaic_stairs",
+    "mosaic_carpentry:dark_oak_mosaic_stairs",
+    "mosaic_carpentry:acacia_mosaic_stairs",
+    "mosaic_carpentry:jungle_mosaic_stairs",
+    "mosaic_carpentry:warped_mosaic_stairs",
+    "mosaic_carpentry:crimson_mosaic_stairs"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mosaic_carpentry:dark_oak_mosaic"
+    }
+  },
+  "result": {
+    "item": "mosaic_carpentry:dark_oak_mosaic_stairs",
+    "count": 4
+  }
+}

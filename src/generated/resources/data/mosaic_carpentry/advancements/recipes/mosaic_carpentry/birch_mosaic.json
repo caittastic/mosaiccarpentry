@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mosaic_carpentry:birch_mosaic"
+    ]
+  },
+  "criteria": {
+    "has_birch_mosaic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mosaic_carpentry:birch_mosaic"
+            ]
+          }
+        ]
+      }
+    },
+    "has_birch_plank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_birch_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mosaic_carpentry:birch_mosaic"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_birch_mosaic",
+      "has_birch_plank",
+      "has_birch_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

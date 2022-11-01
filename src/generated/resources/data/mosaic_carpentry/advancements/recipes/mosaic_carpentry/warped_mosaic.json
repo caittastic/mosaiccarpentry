@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mosaic_carpentry:warped_mosaic"
+    ]
+  },
+  "criteria": {
+    "has_warped_mosaic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mosaic_carpentry:warped_mosaic"
+            ]
+          }
+        ]
+      }
+    },
+    "has_warped_plank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_warped_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mosaic_carpentry:warped_mosaic"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_mosaic",
+      "has_warped_plank",
+      "has_warped_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "mosaic_carpentry:block/dark_oak_mosaic_slab_top"
+    },
+    "type=bottom": {
+      "model": "mosaic_carpentry:block/dark_oak_mosaic_slab"
+    },
+    "type=double": {
+      "model": "mosaic_carpentry:block/dark_oak_mosaic"
+    }
+  }
+}

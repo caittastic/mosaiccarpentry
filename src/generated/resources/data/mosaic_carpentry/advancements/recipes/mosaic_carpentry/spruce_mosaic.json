@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mosaic_carpentry:spruce_mosaic"
+    ]
+  },
+  "criteria": {
+    "has_spruce_mosaic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mosaic_carpentry:spruce_mosaic"
+            ]
+          }
+        ]
+      }
+    },
+    "has_spruce_plank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_spruce_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mosaic_carpentry:spruce_mosaic"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_spruce_mosaic",
+      "has_spruce_plank",
+      "has_spruce_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

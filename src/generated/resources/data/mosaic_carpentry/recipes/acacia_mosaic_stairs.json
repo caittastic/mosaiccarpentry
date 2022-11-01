@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mosaic_carpentry:acacia_mosaic"
+    }
+  },
+  "result": {
+    "item": "mosaic_carpentry:acacia_mosaic_stairs",
+    "count": 4
+  }
+}

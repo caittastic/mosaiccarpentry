@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mosaic_carpentry:crimson_mosaic"
+    ]
+  },
+  "criteria": {
+    "has_crimson_mosaic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mosaic_carpentry:crimson_mosaic"
+            ]
+          }
+        ]
+      }
+    },
+    "has_crimson_plank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_crimson_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mosaic_carpentry:crimson_mosaic"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crimson_mosaic",
+      "has_crimson_plank",
+      "has_crimson_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

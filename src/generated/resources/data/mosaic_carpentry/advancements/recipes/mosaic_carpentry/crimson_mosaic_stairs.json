@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mosaic_carpentry:crimson_mosaic_stairs"
+    ]
+  },
+  "criteria": {
+    "has_crimson_mosaic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mosaic_carpentry:crimson_mosaic"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mosaic_carpentry:crimson_mosaic_stairs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crimson_mosaic",
+      "has_the_recipe"
+    ]
+  ]
+}

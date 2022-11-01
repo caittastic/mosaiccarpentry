@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mosaic_carpentry:oak_mosaic"
+    ]
+  },
+  "criteria": {
+    "has_oak_mosaic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mosaic_carpentry:oak_mosaic"
+            ]
+          }
+        ]
+      }
+    },
+    "has_oak_plank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_oak_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mosaic_carpentry:oak_mosaic"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_oak_mosaic",
+      "has_oak_plank",
+      "has_oak_slab",
+      "has_the_recipe"
+    ]
+  ]
+}
