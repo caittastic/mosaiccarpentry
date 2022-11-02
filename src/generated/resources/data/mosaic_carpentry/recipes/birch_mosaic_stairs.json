@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "mosaic_carpentry:birch_mosaic"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "mosaic_carpentry:birch_mosaic_stairs",
-    "count": 4
+    "count": 4,
+    "item": "mosaic_carpentry:birch_mosaic_stairs"
   }
 }

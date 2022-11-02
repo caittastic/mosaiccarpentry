@@ -21,9 +21,10 @@ public class MosaicCarpentry {
             {Blocks.OAK_PLANKS, Blocks.OAK_SLAB},
             {Blocks.BIRCH_PLANKS, Blocks.BIRCH_SLAB},
             {Blocks.SPRUCE_PLANKS, Blocks.SPRUCE_SLAB},
-            {Blocks.DARK_OAK_PLANKS, Blocks.DARK_OAK_SLAB},
-            {Blocks.ACACIA_PLANKS, Blocks.ACACIA_SLAB},
             {Blocks.JUNGLE_PLANKS, Blocks.JUNGLE_SLAB},
+            {Blocks.ACACIA_PLANKS, Blocks.ACACIA_SLAB},
+            {Blocks.DARK_OAK_PLANKS, Blocks.DARK_OAK_SLAB},
+            {Blocks.MANGROVE_PLANKS, Blocks.MANGROVE_SLAB},
             {Blocks.WARPED_PLANKS, Blocks.WARPED_SLAB},
             {Blocks.CRIMSON_PLANKS, Blocks.CRIMSON_SLAB}};
 

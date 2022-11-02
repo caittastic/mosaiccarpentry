@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab_top",
   "textures": {
-    "side": "mosaic_carpentry:block/oak_mosaic",
     "bottom": "mosaic_carpentry:block/oak_mosaic",
+    "side": "mosaic_carpentry:block/oak_mosaic",
     "top": "mosaic_carpentry:block/oak_mosaic"
   }
 }

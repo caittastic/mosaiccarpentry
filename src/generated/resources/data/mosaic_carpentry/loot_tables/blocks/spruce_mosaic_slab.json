@@ -2,15 +2,19 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "spruce_mosaic_slab",
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "mosaic_carpentry:spruce_mosaic_slab"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ]
 }

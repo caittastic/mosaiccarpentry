@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mangrove_mosaic": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mosaic_carpentry:mangrove_mosaic"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mangrove_plank": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mangrove_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mosaic_carpentry:mangrove_mosaic"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mangrove_mosaic",
+      "has_mangrove_plank",
+      "has_mangrove_slab",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mosaic_carpentry:mangrove_mosaic"
+    ]
+  }
+}

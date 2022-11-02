@@ -1,4 +1,4 @@
-package caittastic.mosaiccarpentry.datagen;
+package caittastic.mosaiccarpentry.datagen.models;
 
 import caittastic.mosaiccarpentry.ModItemBlockRegistry;
 import caittastic.mosaiccarpentry.MosaicCarpentry;
@@ -21,18 +21,19 @@ public class ModBlockStatesAndModels extends BlockStateProvider {
     protected void registerStatesAndModels() {
         for (Block[] pParentBlock : PARENT_PLANK_AND_CRAFT_BLOCK) {
             String name = getMosaicBlockTypeName(pParentBlock[0]);
-            Block plankBlock = ModItemBlockRegistry.MOSAIC_BLOCK_MAP.get(name).get();
+            Block mosaicBlock = ModItemBlockRegistry.MOSAIC_BLOCK_MAP.get(name).get();
             //register block model
-            simpleBlock(plankBlock);
+            simpleBlock(mosaicBlock);
 
             //register stair model
             stairsBlock((StairBlock) ModItemBlockRegistry.MOSAIC_STAIRS_MAP.get(name).get(),
-                    blockTexture(plankBlock));
+                    blockTexture(mosaicBlock));
 
             //register slab model
             slabBlock((SlabBlock) ModItemBlockRegistry.MOSAIC_SLAB_MAP.get(name).get(),
-                    blockTexture(plankBlock),
-                    blockTexture(plankBlock));
+                    blockTexture(mosaicBlock),
+                    blockTexture(mosaicBlock));
         }
     }
 }
+
