@@ -30,6 +30,5 @@ public class ModItemModels extends ItemModelProvider {
 
     private ItemModelBuilder getWithExistingParent(String name, RegistryObject<Block> blockRegistryObject, String appendix) {
         return withExistingParent(blockRegistryObject.get().getRegistryName().getPath(), modLoc("block/" + name + appendix));
-        return withExistingParent(blockRegistryObject.getId().getPath(),
     }
 }
