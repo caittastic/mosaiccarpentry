@@ -4,7 +4,7 @@ license="All rights reserved"
 [[mods]] #mandatory
 modId="mosaic_carpentry" #mandatory
 version="${file.jarVersion}" #mandatory
-displayName="Example Mod" #mandatory
+displayName="Mosaic Carpentry" #mandatory
 description='''
 A mod that adds mosaic blocks for every plank type
 '''
