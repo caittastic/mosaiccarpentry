@@ -46,8 +46,6 @@ public class ModItemBlockRegistry {
             MOSAIC_SLAB_MAP.put(name, registerBlockWithBlockItem(name + "_mosaic_slab", () -> new SlabBlock(properties), MOSAIC_CARPENTRY_TAB));
             MOSAIC_STAIRS_MAP.put(name, registerBlockWithBlockItem(name + "_mosaic_stairs", () -> new StairBlock(parentBlock.defaultBlockState(),properties), MOSAIC_CARPENTRY_TAB));
 
-            System.out.println("-----------------------------------------------------------------------------");
-            System.out.println(name);
         }
     }
 
